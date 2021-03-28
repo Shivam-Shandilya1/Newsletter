@@ -44,26 +44,26 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
   </head>
   <body class="text-center">
     
 <main class="form-signin">
-  <form>
-    <img class="mb-4" src="images/images.jfif" alt="" width="72" height="77">
+  <form action="/" method="post">
+    <img class="mb-4" src="images/images.jfif" alt="" width="150" height="150">
     <h1 class="h3 mb-3 fw-normal">Signup to my Newsletter</h1>
 
     <div class="form-floating">
-      <input type="text" class="form-control top" id="firstname" placeholder="First Name">
+      <input type="text" class="form-control top" id="firstname" placeholder="First Name" name="namefirst">
       <label for="firstname">First Name </label>
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control middle"  id="lastname" placeholder="Last Name">
+      <input type="text" class="form-control middle"  id="lastname" placeholder="Last Name" name="namelast"> 
       <label for="lastname">Last Name </label>
     </div>
 
     <div class="form-floating">
-      <input type="email" class="form-control bottom" id="floatingInput" placeholder="name@example.com"> 
+      <input type="email" class="form-control bottom" id="floatingInput" placeholder="name@example.com" name="emailadd"> 
      <label for="floatingInput">Email address </label>
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
